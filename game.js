@@ -79,6 +79,7 @@ function counter() {
 
     
 
+// function to display a new question and change the html text for the question and the choices
 
 function newQuestion () {
     var questionText = questions[selectedQuestion]
@@ -88,6 +89,7 @@ function newQuestion () {
     choice3El.innerHTML = questionText.choice3
     choice4El.innerHTML = questionText.choice4
 }
+console.log(newQuestion)
 // checking to see if the user selection matches the answer in the array
 
 
